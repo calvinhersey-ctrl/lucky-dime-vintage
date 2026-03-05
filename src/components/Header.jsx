@@ -25,7 +25,7 @@ export default function Header() {
               <span className="font-display text-[26px] sm:text-[32px] font-semibold text-charcoal tracking-[0.02em] group-hover:text-olive transition-colors">
                 Lucky Dime
               </span>
-              <span className="font-display text-[17px] sm:text-[21px] font-medium text-charcoal tracking-[0.04em] group-hover:text-olive transition-colors">
+              <span className="font-display text-[26px] sm:text-[32px] font-semibold text-charcoal tracking-[0.02em] group-hover:text-olive transition-colors">
                 Vintage
               </span>
             </div>
