@@ -31,7 +31,7 @@ export default function About() {
       <section className="relative bg-charcoal overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=1600&h=600&fit=crop"
+            src="/images/products/pistillino-lamp.webp"
             alt="Vintage curated interior"
             className="w-full h-full object-cover opacity-30"
           />
@@ -51,7 +51,7 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop"
+                src="/images/products/denby-samarkand-cups.webp"
                 alt="Curated vintage display"
                 className="rounded-lg shadow-lg w-full object-cover aspect-[4/3]"
                 loading="lazy"
@@ -137,7 +137,7 @@ export default function About() {
             </div>
             <div className="order-1 lg:order-2">
               <img
-                src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=800&h=600&fit=crop"
+                src="/images/products/cathrineholm-plate.webp"
                 alt="Vintage pottery collection"
                 className="rounded-lg shadow-lg w-full object-cover aspect-[4/3]"
                 loading="lazy"

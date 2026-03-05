@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { ArrowLeft, ExternalLink, ShieldCheck, Package, Truck } from 'lucide-react';
 import { products } from '../data/products';
@@ -6,6 +7,7 @@ import ProductCard from '../components/ProductCard';
 export default function ProductDetail() {
   const { id } = useParams();
   const product = products.find((p) => p.id === parseInt(id));
+  const [selectedImage, setSelectedImage] = useState(0);
 
   if (!product) {
     return <Navigate to="/shop" replace />;
@@ -31,7 +33,7 @@ export default function ProductDetail() {
           <div>
             <div className="relative bg-white rounded-lg overflow-hidden shadow-sm border border-cream-dark/50 aspect-square">
               <img
-                src={product.images[0]}
+                src={product.images[selectedImage]}
                 alt={product.name}
                 className="w-full h-full object-cover"
               />
@@ -41,6 +43,21 @@ export default function ProductDetail() {
                 </span>
               )}
             </div>
+            {product.images.length > 1 && (
+              <div className="flex gap-2 mt-3 overflow-x-auto pb-2">
+                {product.images.map((img, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setSelectedImage(i)}
+                    className={`shrink-0 w-16 h-16 rounded-md overflow-hidden border-2 transition-colors ${
+                      i === selectedImage ? 'border-olive' : 'border-cream-dark/50 hover:border-olive/50'
+                    }`}
+                  >
+                    <img src={img} alt={`${product.name} ${i + 1}`} className="w-full h-full object-cover" />
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* Details */}

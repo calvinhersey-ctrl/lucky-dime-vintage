@@ -13,7 +13,7 @@ export default function Home() {
       <section className="relative bg-charcoal overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1600&h=900&fit=crop"
+            src="/images/products/maison-jansen-lamps.webp"
             alt="Curated vintage interior"
             className="w-full h-full object-cover opacity-40"
           />
@@ -135,7 +135,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&h=600&fit=crop"
+                src="/images/products/gorham-goblets.webp"
                 alt="Curated vintage collection"
                 className="rounded-lg shadow-lg w-full object-cover aspect-[4/3]"
                 loading="lazy"

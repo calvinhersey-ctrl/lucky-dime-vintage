@@ -26,7 +26,15 @@ export const products = [
     isNew: true,
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1507473885765-e6ed057ab6fe?w=800&h=800&fit=crop',
+      '/images/products/maison-jansen-lamps.webp',
+      '/images/products/maison-jansen-lamps-2.webp',
+      '/images/products/maison-jansen-lamps-3.webp',
+      '/images/products/maison-jansen-lamps-4.webp',
+      '/images/products/maison-jansen-lamps-5.webp',
+      '/images/products/maison-jansen-lamps-6.webp',
+      '/images/products/maison-jansen-lamps-7.webp',
+      '/images/products/maison-jansen-lamps-8.webp',
+      '/images/products/maison-jansen-lamps-9.webp',
     ],
   },
   {
@@ -43,7 +51,11 @@ export const products = [
     isNew: true,
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop',
+      '/images/products/pistillino-lamp.webp',
+      '/images/products/pistillino-lamp-2.webp',
+      '/images/products/pistillino-lamp-3.webp',
+      '/images/products/pistillino-lamp-4.webp',
+      '/images/products/pistillino-lamp-5.webp',
     ],
   },
   {
@@ -59,7 +71,14 @@ export const products = [
     condition: 'Vintage — good condition with minor wear',
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1543198126-a8ad8e47fb22?w=800&h=800&fit=crop',
+      '/images/products/tye-california-lamp.webp',
+      '/images/products/tye-california-lamp-2.webp',
+      '/images/products/tye-california-lamp-3.webp',
+      '/images/products/tye-california-lamp-4.webp',
+      '/images/products/tye-california-lamp-5.webp',
+      '/images/products/tye-california-lamp-6.webp',
+      '/images/products/tye-california-lamp-7.webp',
+      '/images/products/tye-california-lamp-8.webp',
     ],
   },
 
@@ -78,7 +97,7 @@ export const products = [
     isNew: false,
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=800&h=800&fit=crop',
+      '/images/products/tony-evans-bison.webp',
     ],
   },
   {
@@ -94,7 +113,7 @@ export const products = [
     condition: 'Very good vintage condition',
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1549887534-1541e9326642?w=800&h=800&fit=crop',
+      '/images/products/klara-sever-sculpture.webp',
     ],
   },
 
@@ -113,7 +132,7 @@ export const products = [
     isNew: true,
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1563865436874-9aef32095fad?w=800&h=800&fit=crop',
+      '/images/products/gorham-goblets.webp',
     ],
   },
 
@@ -131,7 +150,7 @@ export const products = [
     condition: 'Excellent condition',
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=800&h=800&fit=crop',
+      '/images/products/murano-shell-bowl.webp',
     ],
   },
   {
@@ -147,7 +166,7 @@ export const products = [
     condition: 'Very good vintage condition',
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&h=800&fit=crop',
+      '/images/products/jade-snow-wong-cup.webp',
     ],
   },
 
@@ -165,7 +184,7 @@ export const products = [
     condition: 'Good vintage condition',
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=800&h=800&fit=crop',
+      '/images/products/denby-arabesque-mugs.webp',
     ],
   },
   {
@@ -181,7 +200,7 @@ export const products = [
     condition: 'Good vintage condition',
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1495774856032-8b90bbb32b32?w=800&h=800&fit=crop',
+      '/images/products/denby-samarkand-cups.webp',
     ],
   },
   {
@@ -197,7 +216,7 @@ export const products = [
     condition: 'Excellent condition',
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1556909114-44e3e70034e2?w=800&h=800&fit=crop',
+      '/images/products/jars-france-mugs.webp',
     ],
   },
 
@@ -216,7 +235,7 @@ export const products = [
     isNew: true,
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1610701596007-11502f7f2814?w=800&h=800&fit=crop',
+      '/images/products/cathrineholm-bowl.webp',
     ],
   },
   {
@@ -232,7 +251,7 @@ export const products = [
     condition: 'Mint vintage condition',
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1584589167171-541ce45f1eea?w=800&h=800&fit=crop',
+      '/images/products/cathrineholm-plate.webp',
     ],
   },
 
@@ -250,7 +269,7 @@ export const products = [
     condition: 'Very good condition with original sleeve',
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&h=800&fit=crop',
+      '/images/products/kinsey-books.webp',
     ],
   },
 
@@ -268,7 +287,8 @@ export const products = [
     condition: 'Unopened, original condition',
     ebayUrl: '#',
     images: [
-      'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=800&fit=crop',
+      '/images/products/rem-green-can.webp',
+      '/images/products/rem-green-can-2.webp',
     ],
   },
 ];
