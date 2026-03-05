@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FAF7F2;
+  --color-cream-dark: #F0EBE1;
+  --color-olive: #3D5A3E;
+  --color-olive-light: #4A6E4B;
+  --color-olive-dark: #2E4530;
+  --color-gold: #B8943E;
+  --color-gold-light: #D4AF5C;
+  --color-gold-dark: #9A7B2F;
+  --color-charcoal: #2C2C2C;
+  --color-charcoal-light: #4A4A4A;
+  --color-terracotta: #C1714F;
+  --color-mustard: #D4A843;
+  --color-warm-gray: #8B8178;
+  --color-linen: #F5F0E8;
+
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-accent: 'Caveat', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-charcoal);
+  background-color: var(--color-cream);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-linen-texture {
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.02'%3E%3Cpath d='M0 0h1v1H0zm2 0h1v1H2zm4 0h1v1H6zm6 0h1v1h-1zm8 0h1v1h-1zm10 0h1v1h-1zm6 0h1v1h-1zm4 0h1v1h-1zM1 1h1v1H1zm4 0h1v1H5zm8 0h1v1h-1zm10 0h1v1h-1zm8 0h1v1h-1zm6 0h1v1h-1zM0 2h1v1H0zm6 0h1v1H6zm10 0h1v1h-1zm12 0h1v1h-1zm8 0h1v1h-1z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.gold-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-gold-light) 20%, var(--color-gold) 50%, var(--color-gold-light) 80%, transparent);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-warm-gray);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-charcoal-light);
+}
