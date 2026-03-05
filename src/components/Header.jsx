@@ -20,13 +20,15 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex flex-col items-center group">
-            <span className="font-display text-2xl sm:text-3xl font-semibold text-charcoal tracking-wide group-hover:text-olive transition-colors">
-              Lucky Dime
-            </span>
-            <span className="text-[10px] sm:text-xs tracking-[0.3em] uppercase text-warm-gray font-medium -mt-1">
-              Vintage & Design
-            </span>
+          <Link to="/" className="group">
+            <div className="flex items-baseline gap-[7px] sm:gap-[9px] leading-none">
+              <span className="font-display text-[26px] sm:text-[32px] font-semibold text-charcoal tracking-[0.02em] group-hover:text-olive transition-colors">
+                Lucky Dime
+              </span>
+              <span className="font-display text-[17px] sm:text-[21px] font-medium text-charcoal tracking-[0.04em] group-hover:text-olive transition-colors">
+                Vintage
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Nav */}
